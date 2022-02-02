@@ -1,0 +1,7 @@
+{
+  "name": "KFKFshop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
