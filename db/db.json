@@ -1,0 +1,59 @@
+{
+    "utilisateurs": [{
+            "id": 1,
+            "email": "test@test.com",
+            "nom": "NomTest",
+            "prenom": "PrenomTest",
+            "adresse": "AdresseTest"
+        },
+        {
+            "id": 2,
+            "email": "test2@test.com",
+            "nom": "NomTest2",
+            "prenom": "PrenomTest2",
+            "adresse": "AdresseTest2"
+        }
+    ],
+    "articles": [{
+            "id": 1,
+            "nom": "articleTest",
+            "description": "descriptionTest",
+            "prix": 199
+        },
+        {
+            "id": 2,
+            "nom": "articleTest2",
+            "description": "descriptionTest2",
+            "prix": 299
+        },
+        {
+            "id": 3,
+            "nom": "articleTest3",
+            "description": "descriptionTest3",
+            "prix": 399
+        }
+    ],
+    "commande": [{
+        "id": 1,
+        "utilisateur": {
+            "id": 1,
+            "email": "test@test.com",
+            "nom": "NomTest",
+            "prenom": "PrenomTest",
+            "adresse": "AdresseTest"
+        },
+        "articles": [{
+                "id": 1,
+                "nom": "articleTest",
+                "description": "descriptionTest",
+                "prix": 199
+            },
+            {
+                "id": 2,
+                "nom": "articleTest2",
+                "description": "descriptionTest2",
+                "prix": 299
+            }
+        ]
+    }]
+}

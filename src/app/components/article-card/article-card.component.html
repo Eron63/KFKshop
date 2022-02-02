@@ -1,0 +1,15 @@
+<ion-card>
+    <ion-card-header>
+        <ion-card-title>{{article.nom}}</ion-card-title>
+        <ion-card-subtitle>Prix : {{article.prix}} €</ion-card-subtitle>
+
+    </ion-card-header>
+
+    <ion-card-content>
+        {{article.description}}
+    </ion-card-content>
+
+    <img src="https://previews.123rf.com/images/mashe/mashe0812/mashe081200507/4065063-frauen-unterw%C3%A4sche.jpg">
+
+    <ion-button expand="full" color="success" type="button" (click)="ajouterArticle()">Ajouter</ion-button>
+</ion-card>
